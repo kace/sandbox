@@ -1,1 +1,1 @@
-# sandbox - screwing around with python and celery
+# sandbox - screwing around with python; misc setup files, etc

@@ -15,4 +15,8 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 " >> ~/.bashrc
 
-echo "set background=dark" >> ~/.vimrc
+echo ":set background=dark
+:filetype plugin indent on
+:set expandtab
+:set tabstop=4
+:set shiftwidth=4" >> ~/.vimrc

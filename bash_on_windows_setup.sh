@@ -4,6 +4,7 @@
 
 # bash coloring, python startup, default editor
 # PS1 -> https://wiki.ubuntuusers.de/Bash/Prompt/
+# use on Ubuntu (dir coloring needs to be explicit) -> LS_COLORS='ow=01;36:di=01;36'
 echo "
 LS_COLORS='ow=01;36;40'
 export LS_COLORS

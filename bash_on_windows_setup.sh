@@ -23,5 +23,5 @@ echo ":set background=dark
 :set expandtab
 :set tabstop=4
 :set shiftwidth=4
-:highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-:match OverLength /\%81v.\+/" > /$HOME/.vimrc
+:autocmd FileType python highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+:autocmd FileType python match OverLength /\%81v.\+/" > /$HOME/.vimrc

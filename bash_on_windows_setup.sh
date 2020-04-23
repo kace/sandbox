@@ -9,8 +9,7 @@
 echo "
 LS_COLORS='ow=01;36;40'
 export LS_COLORS
-PS1='\u@\h \[\033[1;35m\]\W\e[0m\$ '
-#PS1='\e[37;1m\u@\h \e[35m\W\e[0m\$ '
+PS1='\u@\h \[\033[1;35m\]\W\[\033[0m\]$ '
 
 export PYTHONSTARTUP=/home/$USER/.pystartup.py
 
